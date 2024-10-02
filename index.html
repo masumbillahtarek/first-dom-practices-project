@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first dom practices projects</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="sumaiya.js"></script>
+</head>
+<body>
+ <div class="shape-calculator">
+    <div class="shape">
+      <!--Triangle-->
+      <div class="triangle">
+        <div class="triangle-image">
+         <img src="images/triangle.png" alt="">
+        </div>
+         <h3>Triangle</h3>
+         <p>Area (A) = 0.5*b*h</p>
+        <div class="triangle-input">
+         <div>
+             <input type="text" placeholder="b" class="base">
+             <span>cm</span>
+         </div>
+         <div>
+             <input type="text" placeholder="h" class="height">
+            <span>cm</span>
+         </div>
+         </div>
+         <div class="calculation-box"></div>
+         <div class="triangle-btn">
+             <button class="btn-primmary">Calculate</button>
+         </div>
+        </div>
+        <!--Rhombus-->
+            <div class="triangle">
+                <div class="triangle-image">
+                 <img src="images/rhombus.png" alt="">
+                </div>
+                 <h3>Rhombus</h3>
+                 <p>Area (A) =0.5*d1*d2
+                </p>
+                <div class="triangle-input">
+                 <div>
+                     <input type="text" placeholder="b" class="base">
+                     <span>cm</span>
+                 </div>
+                 <div>
+                     <input type="text" placeholder="h" class="height">
+                    <span>cm</span>
+                 </div>
+                 </div>
+                 <div class="triangle-btn">
+                     <button class="btn-primmary">Calculate</button>
+                 </div>
+                </div>
+    </div>
+    <div class="shape">
+        <!--Rectangle-->
+        <div class="triangle">
+            <div class="triangle-image">
+             <img src="images/rectangle.png" alt="">
+            </div>
+             <h3>Rectangle</h3>
+             <p>Area (A) = w*I</p>
+            <div class="triangle-input">
+             <div>
+                 <input type="text" placeholder="w" class=" base" id="rectangle-base">
+                 <span>cm</span>
+             </div>
+             <div>
+                 <input type="text" placeholder="I" class=" height" id="rectangle-height">
+                <span>cm</span>
+             </div>
+             </div>
+             <div class="triangle-btn">
+                 <button onclick="rectangleArea()" class="btn-primmary">Calculate</button>
+             </div>
+            </div>
+            <!--Pentagon-->
+            <div class="triangle">
+                <div class="triangle-image">
+                 <img src="images/pentagon.png" alt="">
+                </div>
+                 <h3>Pentagon</h3>
+                 <p>Area (A) = 0.5*p*b</p>
+                <div class="triangle-input">
+                 <div>
+                     <input type="text" placeholder="b" class="base">
+                     <span>cm</span>
+                 </div>
+                 <div>
+                     <input type="text" placeholder="h" class="height">
+                    <span>cm</span>
+                 </div>
+                 </div>
+                 <div class="triangle-btn">
+                     <button class="btn-primmary">Calculate</button>
+                 </div>
+                </div>
+    </div>
+    <div class="shape">
+        <!--Parallelogram-->
+        <div class="triangle">
+            <div class="triangle-image">
+             <img src="images/parallelogram.png" alt="">
+            </div>
+             <h3>Parallelogram</h3>
+             <p>Area (A) = b*h</p>
+            <div class="triangle-input">
+             <div>
+                 <input type="text" placeholder="b" class="base">
+                 <span>cm</span>
+             </div>
+             <div>
+                 <input type="text" placeholder="h" class="height">
+                <span>cm</span>
+             </div>
+             </div>
+             <div class="triangle-btn">
+                 <button class="btn-primmary">Calculate</button>
+             </div>
+            </div>
+            <!--Ellipse-->
+            <div class="triangle">
+                <div class="triangle-image">
+                 <img src="images/ellipse.png" alt="">
+                </div>
+                 <h3>Ellipse</h3>
+                 <p>Area (A) =3.1416*a*b
+                </p>
+                <div class="triangle-input">
+                 <div>
+                     <input type="text" placeholder="b" class="base">
+                     <span>cm</span>
+                 </div>
+                 <div>
+                     <input type="text" placeholder="h" class="height">
+                    <span>cm</span>
+                 </div>
+                 </div>
+                 <div class="triangle-btn">
+                     <button class="btn-primmary">Calculate</button>
+                 </div>
+                </div>
+    </div>
+  
+    </div>
+    <div class="shape-area-calculation" id="shape-area">
+        <h2>Area Calculation</h2>
+    </div>
+ </div>
+ <script src="script-file/rectangle.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+body{
+  display: flex;  
+}
+.shape-calculator{
+display: flex;
+gap: 20px;
+width: 90%;
+margin: 0 auto;
+}
+
+.triangle{
+padding: 20px;
+}
+.triangle>h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    margin: 20px 0;
+}
+.triangle-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.triangle>p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.triangle-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.triangle-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-primmary{
+font-size: 20px;
+font-weight: 300;
+height: 40px;
+background-color:aqua;
+color:azure;
+border: none;
+border-radius: 15px;
+width: 100%;
+margin-top: 20px;
+}
+.base{
+padding: 7px 10px;
+border-radius: 15px;
+background-color: rgb(239, 222, 151);
+border: none;
+width: 60%;
+
+}
+.height{
+    margin-left: 20px;
+    padding: 7px 10px;
+    border-radius: 15px;
+    background-color: rgb(239, 222, 151);
+    border: none;
+    width: 60%;
+}
+.shape-area-calculation{
+border: 2px solid purple;
+padding-left: 10px;
+}
+.shape-area-calculation>h2{
+font-size: 30px;
+color: black;
+text-align: center;
+}
