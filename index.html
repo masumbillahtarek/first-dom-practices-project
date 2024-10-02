@@ -19,17 +19,17 @@
          <p>Area (A) = 0.5*b*h</p>
         <div class="triangle-input">
          <div>
-             <input type="text" placeholder="b" class="base">
+             <input type="text" placeholder="b" class="base" id="triangle-base">
              <span>cm</span>
          </div>
          <div>
-             <input type="text" placeholder="h" class="height">
+             <input type="text" placeholder="h" class="height" id="triangle-height">
             <span>cm</span>
          </div>
          </div>
          <div class="calculation-box"></div>
          <div class="triangle-btn">
-             <button class="btn-primmary">Calculate</button>
+             <button onclick="triangleArea()" class="btn-primmary">Calculate</button>
          </div>
         </div>
         <!--Rhombus-->
@@ -42,16 +42,16 @@
                 </p>
                 <div class="triangle-input">
                  <div>
-                     <input type="text" placeholder="b" class="base">
+                     <input type="text" placeholder="d1" class="base" id="rhombus-base">
                      <span>cm</span>
                  </div>
                  <div>
-                     <input type="text" placeholder="h" class="height">
+                     <input type="text" placeholder="d2" class="height" id="rhombus-height">
                     <span>cm</span>
                  </div>
                  </div>
                  <div class="triangle-btn">
-                     <button class="btn-primmary">Calculate</button>
+                     <button onclick="rhombusArea()" class="btn-primmary">Calculate</button>
                  </div>
                 </div>
     </div>
@@ -86,16 +86,16 @@
                  <p>Area (A) = 0.5*p*b</p>
                 <div class="triangle-input">
                  <div>
-                     <input type="text" placeholder="b" class="base">
+                     <input type="text" placeholder="p" class="base" id="pentagon-base">
                      <span>cm</span>
                  </div>
                  <div>
-                     <input type="text" placeholder="h" class="height">
+                     <input type="text" placeholder="b" class="height" id="pentagon-height">
                     <span>cm</span>
                  </div>
                  </div>
                  <div class="triangle-btn">
-                     <button class="btn-primmary">Calculate</button>
+                     <button onclick="pentagonArea()" class="btn-primmary">Calculate</button>
                  </div>
                 </div>
     </div>
@@ -103,22 +103,22 @@
         <!--Parallelogram-->
         <div class="triangle">
             <div class="triangle-image">
-             <img src="images/parallelogram.png" alt="">
+             <img class="parallelogram" src="images/parallelogram.png" alt="">
             </div>
              <h3>Parallelogram</h3>
              <p>Area (A) = b*h</p>
             <div class="triangle-input">
              <div>
-                 <input type="text" placeholder="b" class="base">
+                 <input type="text" placeholder="b" class="base" id="parallelogram-base">
                  <span>cm</span>
              </div>
              <div>
-                 <input type="text" placeholder="h" class="height">
+                 <input type="text" placeholder="h" class="height" id="parallelogram-height">
                 <span>cm</span>
              </div>
              </div>
              <div class="triangle-btn">
-                 <button class="btn-primmary">Calculate</button>
+                 <button onclick="parallelogramArea()" class="btn-primmary">Calculate</button>
              </div>
             </div>
             <!--Ellipse-->
@@ -131,16 +131,16 @@
                 </p>
                 <div class="triangle-input">
                  <div>
-                     <input type="text" placeholder="b" class="base">
+                     <input type="text" placeholder="a" class="base" id="ellipse-base">
                      <span>cm</span>
                  </div>
                  <div>
-                     <input type="text" placeholder="h" class="height">
+                     <input type="text" placeholder="b" class="height" id="ellipse-height">
                     <span>cm</span>
                  </div>
                  </div>
                  <div class="triangle-btn">
-                     <button class="btn-primmary">Calculate</button>
+                     <button onclick="ellipseArea()" class="btn-primmary">Calculate</button>
                  </div>
                 </div>
     </div>
@@ -150,6 +150,11 @@
         <h2>Area Calculation</h2>
     </div>
  </div>
+ <script src="script-file/ellipse.js"></script>
+ <script src="script-file/pentagon.js"></script>
+ <script src="script-file/rhombus.js"></script>
+ <script src="script-file/parallelogram.js"></script>
+ <script src="script-file/triangle.js"></script>
  <script src="script-file/rectangle.js"></script>
 </body>
 </html>
